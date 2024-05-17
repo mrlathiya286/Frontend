@@ -3,45 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>My Third Web Page</title>
   </head>
   <body>
-    <p>My Web Site Brand</p>
+    <header style="font-size: 60px; color: #fff">My Web Site Brand</header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="page2.html">About</a></li>
-        <li>Gallery</li>
+        <li><a href="#">Gallery</a></li>
+
         <li><a href="page3.html">Contact</a></li>
       </ul>
     </nav>
     <main>
       <h1>My Third Heading</h1>
       <p>My Third Paragraph.</p>
-      <img src="images/central_park.jpg" alt="Central Park" width="500" />
+      <img src="images/central_park.jpg" alt="" width="500" />
       <form action="/signup" method="post">
         <fieldset>
           <legend>User Personal Information</legend>
-          <label>Enter your full name</label><br>
-          <input type="text" name="name"></br>
-          <label>Enter your email</label><br>
-          <input type="email" name="email"></br>
-          <label>Enter your phone</label><br>
-          <input type="phone" name="phone"></br>
-          <br><label>Select your gender</label><br>
-          <input type="radio" name="gender" value="male"/>Male
-          <input type="radio" name="gender" value="female"/>Female <br/>
-          <br><label>How should we Contact you</label>
+          <label>Enter your full name</label>
+          <input type="text" name="name" />
+          <label>Enter your email</label>
+          <input type="email" name="email" />
+          <label>Enter your phone</label>
+          <input type="phone" name="phone" />
+          <label>Select your gender</label>
+          <input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female
+          <label>How should we Contact you</label>
           <select>
             <option>email</option>
             <option>phone</option>
-          </select><br>
-          <br>Tell us the reason of visit today: <br>
-          <textarea cols="30" rows="5"></textarea><br>
-          <input type="submit" value="sign-up">
+          </select>
+          <br />
+          <p>Tell us the reason of visit today:</p>
+          <textarea cols="30" rows="5"></textarea>
+          <br />
+          <input type="submit" value="sign-up" />
         </fieldset>
       </form>
-      <table border="1">
+      <table>
         <caption>
           Calories Comparison of Popular Burgers
         </caption>
@@ -82,6 +87,8 @@
       </table>
     </main>
 
-    <p>&copy Copyright 2024</p>
+    <footer>
+      <p>&copy Copyright 2024</p>
+    </footer>
   </body>
 </html>
